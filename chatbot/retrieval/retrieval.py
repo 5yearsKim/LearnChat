@@ -10,7 +10,7 @@ class Retrieval:
     def retrieve(self, query: str) -> str | None:
         '''
         query가 JSON 데이터의 key를 포함하면 "{key}: {value}"를 반환.
-        포함하지 않으면 None을 반환.
+        포함하지 않으면 None을 반환.....
         '''
         for key, value in self.data.items():
             if key.lower() in query.lower():
